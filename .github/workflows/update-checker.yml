@@ -19,8 +19,7 @@ env:
 on:
   workflow_dispatch:
   schedule:
-    - cron: "8 10 * * *"
-      timezone: 'Asia/Shanghai'
+    - cron: "1 17 * * 0"
 
 jobs:
   check:
